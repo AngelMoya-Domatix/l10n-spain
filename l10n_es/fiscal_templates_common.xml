@@ -181,22 +181,40 @@
             <field name="tax_src_id" ref="iva_sop_21_inv"/>
             <field name="tax_dest_id" ref="iva_IC_compras_21_bi"/>
         </record>
-        <record id="fptt_intra_ventas_4"
+        <record id="fptt_intra_ventas_4b"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_intra"/>
-            <field name="tax_src_id" ref="iva_rep_4"/>
+            <field name="tax_src_id" ref="iva_rep_4b"/>
             <field name="tax_dest_id" ref="iva_IO"/>
         </record>
-        <record id="fptt_intra_ventas_10"
+        <record id="fptt_intra_ventas_4s"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_intra"/>
-            <field name="tax_src_id" ref="iva_rep_10"/>
+            <field name="tax_src_id" ref="iva_rep_4s"/>
             <field name="tax_dest_id" ref="iva_IO"/>
         </record>
-        <record id="fptt_intra_ventas_21"
+        <record id="fptt_intra_ventas_10b"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_intra"/>
-            <field name="tax_src_id" ref="iva_rep_21"/>
+            <field name="tax_src_id" ref="iva_rep_10b"/>
+            <field name="tax_dest_id" ref="iva_IO"/>
+        </record>
+        <record id="fptt_intra_ventas_10s"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_intra"/>
+            <field name="tax_src_id" ref="iva_rep_10s"/>
+            <field name="tax_dest_id" ref="iva_IO"/>
+        </record>
+        <record id="fptt_intra_ventas_21b"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_intra"/>
+            <field name="tax_src_id" ref="iva_rep_21b"/>
+            <field name="tax_dest_id" ref="iva_IO"/>
+        </record>
+        <record id="fptt_intra_ventas_21s"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_intra"/>
+            <field name="tax_src_id" ref="iva_rep_21s"/>
             <field name="tax_dest_id" ref="iva_IO"/>
         </record>
 
