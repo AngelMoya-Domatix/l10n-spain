@@ -127,22 +127,40 @@
             <field name="tax_src_id" ref="iva_sop_21_inv"/>
             <field name="tax_dest_id" ref="iva_X21_compras_bi"/>
         </record>
-        <record id="fptt_extra_ventas_4"
+        <record id="fptt_extra_ventas_4b"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_extra"/>
-            <field name="tax_src_id" ref="iva_rep_4"/>
+            <field name="tax_src_id" ref="iva_rep_4b"/>
             <field name="tax_dest_id" ref="iva_X0"/>
         </record>
-        <record id="fptt_extra_ventas_10"
+        <record id="fptt_extra_ventas_4s"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_extra"/>
-            <field name="tax_src_id" ref="iva_rep_10"/>
+            <field name="tax_src_id" ref="iva_rep_4s"/>
             <field name="tax_dest_id" ref="iva_X0"/>
         </record>
-        <record id="fptt_extra_ventas_21"
+        <record id="fptt_extra_ventas_10b"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_extra"/>
-            <field name="tax_src_id" ref="iva_rep_21"/>
+            <field name="tax_src_id" ref="iva_rep_10b"/>
+            <field name="tax_dest_id" ref="iva_X0"/>
+        </record>
+        <record id="fptt_extra_ventas_10s"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_extra"/>
+            <field name="tax_src_id" ref="iva_rep_10s"/>
+            <field name="tax_dest_id" ref="iva_X0"/>
+        </record>
+        <record id="fptt_extra_ventas_21b"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_extra"/>
+            <field name="tax_src_id" ref="iva_rep_21b"/>
+            <field name="tax_dest_id" ref="iva_X0"/>
+        </record>
+        <record id="fptt_extra_ventas_21s"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_extra"/>
+            <field name="tax_src_id" ref="iva_rep_21s"/>
             <field name="tax_dest_id" ref="iva_X0"/>
         </record>
 
@@ -220,37 +238,70 @@
 
         <!-- Recargo de equivalencia -->
 
-        <record id="fptt_recargo_4" model="account.fiscal.position.tax.template">
+        <record id="fptt_recargo_4b" model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_recargo"/>
-            <field name="tax_src_id" ref="iva_rep_4"/>
-            <field name="tax_dest_id" ref="iva_rep_4"/>
+            <field name="tax_src_id" ref="iva_rep_4b"/>
+            <field name="tax_dest_id" ref="iva_rep_4b"/>
         </record>
-        <record id="fptt_recargo_4_2"
+        <record id="fptt_recargo_4b_2"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_recargo"/>
-            <field name="tax_src_id" ref="iva_rep_4"/>
+            <field name="tax_src_id" ref="iva_rep_4b"/>
             <field name="tax_dest_id" ref="re_05"/>
         </record>
-        <record id="fptt_recargo_10" model="account.fiscal.position.tax.template">
+        <record id="fptt_recargo_4s" model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_recargo"/>
-            <field name="tax_src_id" ref="iva_rep_10"/>
-            <field name="tax_dest_id" ref="iva_rep_10"/>
+            <field name="tax_src_id" ref="iva_rep_4s"/>
+            <field name="tax_dest_id" ref="iva_rep_4s"/>
         </record>
-        <record id="fptt_recargo_10_2"
+        <record id="fptt_recargo_4s_2"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_recargo"/>
-            <field name="tax_src_id" ref="iva_rep_10"/>
+            <field name="tax_src_id" ref="iva_rep_4s"/>
+            <field name="tax_dest_id" ref="re_05"/>
+        </record>
+        <record id="fptt_recargo_10b" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_recargo"/>
+            <field name="tax_src_id" ref="iva_rep_10b"/>
+            <field name="tax_dest_id" ref="iva_rep_10b"/>
+        </record>
+        <record id="fptt_recargo_10b_2"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_recargo"/>
+            <field name="tax_src_id" ref="iva_rep_10b"/>
             <field name="tax_dest_id" ref="re_14"/>
         </record>
-        <record id="fptt_recargo_21" model="account.fiscal.position.tax.template">
+        <record id="fptt_recargo_10s" model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_recargo"/>
-            <field name="tax_src_id" ref="iva_rep_21"/>
-            <field name="tax_dest_id" ref="iva_rep_21"/>
+            <field name="tax_src_id" ref="iva_rep_10s"/>
+            <field name="tax_dest_id" ref="iva_rep_10s"/>
         </record>
-        <record id="fptt_recargo_21_2"
+        <record id="fptt_recargo_10s_2"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_recargo"/>
-            <field name="tax_src_id" ref="iva_rep_21"/>
+            <field name="tax_src_id" ref="iva_rep_10s"/>
+            <field name="tax_dest_id" ref="re_14"/>
+        </record>
+        <record id="fptt_recargo_21b" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_recargo"/>
+            <field name="tax_src_id" ref="iva_rep_21b"/>
+            <field name="tax_dest_id" ref="iva_rep_21b"/>
+        </record>
+        <record id="fptt_recargo_21b_2"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_recargo"/>
+            <field name="tax_src_id" ref="iva_rep_21b"/>
+            <field name="tax_dest_id" ref="re_52"/>
+        </record>
+        <record id="fptt_recargo_21s" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_recargo"/>
+            <field name="tax_src_id" ref="iva_rep_21s"/>
+            <field name="tax_dest_id" ref="iva_rep_21s"/>
+        </record>
+        <record id="fptt_recargo_21s_2"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_recargo"/>
+            <field name="tax_src_id" ref="iva_rep_21s"/>
             <field name="tax_dest_id" ref="re_52"/>
         </record>
         <record id="fptt_recargo_buy_4"
@@ -328,40 +379,76 @@
 
         <!-- Retenciones IRPF 21% -->
 
-        <record id="fptt_irpf21sale_21"
+        <record id="fptt_irpf21sale_21b"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf21"/>
-            <field name="tax_src_id" ref="iva_rep_21"/>
-            <field name="tax_dest_id" ref="iva_rep_21"/>
+            <field name="tax_src_id" ref="iva_rep_21b"/>
+            <field name="tax_dest_id" ref="iva_rep_21b"/>
         </record>
-        <record id="fptt_irpf21sale_21_2"
+        <record id="fptt_irpf21sale_21b_2"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf21"/>
-            <field name="tax_src_id" ref="iva_rep_21"/>
+            <field name="tax_src_id" ref="iva_rep_21b"/>
             <field name="tax_dest_id" ref="irpf_sale_21"/>
         </record>
-        <record id="fptt_irpf21sale_10"
+        <record id="fptt_irpf21sale_21s"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf21"/>
-            <field name="tax_src_id" ref="iva_rep_10"/>
-            <field name="tax_dest_id" ref="iva_rep_10"/>
+            <field name="tax_src_id" ref="iva_rep_21s"/>
+            <field name="tax_dest_id" ref="iva_rep_21s"/>
         </record>
-        <record id="fptt_irpf21sale_10_2"
+        <record id="fptt_irpf21sale_21s_2"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf21"/>
-            <field name="tax_src_id" ref="iva_rep_10"/>
+            <field name="tax_src_id" ref="iva_rep_21s"/>
             <field name="tax_dest_id" ref="irpf_sale_21"/>
         </record>
-        <record id="fptt_irpf21sale_4"
+        <record id="fptt_irpf21sale_10b"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf21"/>
-            <field name="tax_src_id" ref="iva_rep_4"/>
-            <field name="tax_dest_id" ref="iva_rep_4"/>
+            <field name="tax_src_id" ref="iva_rep_10b"/>
+            <field name="tax_dest_id" ref="iva_rep_10b"/>
         </record>
-        <record id="fptt_irpf21sale_4_2"
+        <record id="fptt_irpf21sale_10b_2"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf21"/>
-            <field name="tax_src_id" ref="iva_rep_4"/>
+            <field name="tax_src_id" ref="iva_rep_10b"/>
+            <field name="tax_dest_id" ref="irpf_sale_21"/>
+        </record>
+        <record id="fptt_irpf21sale_10s"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf21"/>
+            <field name="tax_src_id" ref="iva_rep_10s"/>
+            <field name="tax_dest_id" ref="iva_rep_10s"/>
+        </record>
+        <record id="fptt_irpf21sale_10s_2"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf21"/>
+            <field name="tax_src_id" ref="iva_rep_10s"/>
+            <field name="tax_dest_id" ref="irpf_sale_21"/>
+        </record>
+        <record id="fptt_irpf21sale_4b"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf21"/>
+            <field name="tax_src_id" ref="iva_rep_4b"/>
+            <field name="tax_dest_id" ref="iva_rep_4b"/>
+        </record>
+        <record id="fptt_irpf21sale_4b_2"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf21"/>
+            <field name="tax_src_id" ref="iva_rep_4b"/>
+            <field name="tax_dest_id" ref="irpf_sale_21"/>
+        </record>
+        <record id="fptt_irpf21sale_4s"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf21"/>
+            <field name="tax_src_id" ref="iva_rep_4s"/>
+            <field name="tax_dest_id" ref="iva_rep_4s"/>
+        </record>
+        <record id="fptt_irpf21sale_4s_2"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf21"/>
+            <field name="tax_src_id" ref="iva_rep_4s"/>
             <field name="tax_dest_id" ref="irpf_sale_21"/>
         </record>
         <record id="fptt_irpf21_21" model="account.fiscal.position.tax.template">
@@ -420,40 +507,76 @@
         </record>
 
         <!-- Retenciones IRPF 20% -->
-        <record id="fptt_irpf20sale_21"
+        <record id="fptt_irpf20sale_21b"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf20"/>
-            <field name="tax_src_id" ref="iva_rep_21"/>
-            <field name="tax_dest_id" ref="iva_rep_21"/>
+            <field name="tax_src_id" ref="iva_rep_21b"/>
+            <field name="tax_dest_id" ref="iva_rep_21b"/>
         </record>
-        <record id="fptt_irpf20sale_21_2"
+        <record id="fptt_irpf20sale_21b_2"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf20"/>
-            <field name="tax_src_id" ref="iva_rep_21"/>
+            <field name="tax_src_id" ref="iva_rep_21b"/>
             <field name="tax_dest_id" ref="irpf_sale_20"/>
         </record>
-        <record id="fptt_irpf20sale_10"
+        <record id="fptt_irpf20sale_21s"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf20"/>
-            <field name="tax_src_id" ref="iva_rep_10"/>
-            <field name="tax_dest_id" ref="iva_rep_10"/>
+            <field name="tax_src_id" ref="iva_rep_21s"/>
+            <field name="tax_dest_id" ref="iva_rep_21s"/>
         </record>
-        <record id="fptt_irpf20sale_10_2"
+        <record id="fptt_irpf20sale_21s_2"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf20"/>
-            <field name="tax_src_id" ref="iva_rep_10"/>
+            <field name="tax_src_id" ref="iva_rep_21s"/>
             <field name="tax_dest_id" ref="irpf_sale_20"/>
         </record>
-        <record id="fptt_irpf20sale_4"
+        <record id="fptt_irpf20sale_10b"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf20"/>
-            <field name="tax_src_id" ref="iva_rep_4"/>
-            <field name="tax_dest_id" ref="iva_rep_4"/>
+            <field name="tax_src_id" ref="iva_rep_10b"/>
+            <field name="tax_dest_id" ref="iva_rep_10b"/>
         </record>
-        <record id="fptt_irpf20sale_4_2"
+        <record id="fptt_irpf20sale_10b_2"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf20"/>
-            <field name="tax_src_id" ref="iva_rep_4"/>
+            <field name="tax_src_id" ref="iva_rep_10b"/>
+            <field name="tax_dest_id" ref="irpf_sale_20"/>
+        </record>
+        <record id="fptt_irpf20sale_10s"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf20"/>
+            <field name="tax_src_id" ref="iva_rep_10s"/>
+            <field name="tax_dest_id" ref="iva_rep_10s"/>
+        </record>
+        <record id="fptt_irpf20sale_10s_2"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf20"/>
+            <field name="tax_src_id" ref="iva_rep_10s"/>
+            <field name="tax_dest_id" ref="irpf_sale_20"/>
+        </record>
+        <record id="fptt_irpf20sale_4b"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf20"/>
+            <field name="tax_src_id" ref="iva_rep_4b"/>
+            <field name="tax_dest_id" ref="iva_rep_4b"/>
+        </record>
+        <record id="fptt_irpf20sale_4b_2"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf20"/>
+            <field name="tax_src_id" ref="iva_rep_4b"/>
+            <field name="tax_dest_id" ref="irpf_sale_20"/>
+        </record>
+        <record id="fptt_irpf20sale_4s"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf20"/>
+            <field name="tax_src_id" ref="iva_rep_4s"/>
+            <field name="tax_dest_id" ref="iva_rep_4s"/>
+        </record>
+        <record id="fptt_irpf20sale_4s_2"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf20"/>
+            <field name="tax_src_id" ref="iva_rep_4s"/>
             <field name="tax_dest_id" ref="irpf_sale_20"/>
         </record>
         <record id="fptt_irpf20_21" model="account.fiscal.position.tax.template">
@@ -491,40 +614,76 @@
 
         <!-- Retenciones IRPF 15% -->
 
-        <record id="fptt_irpf15sale_21"
+        <record id="fptt_irpf15sale_21b"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf15"/>
-            <field name="tax_src_id" ref="iva_rep_21"/>
-            <field name="tax_dest_id" ref="iva_rep_21"/>
+            <field name="tax_src_id" ref="iva_rep_21b"/>
+            <field name="tax_dest_id" ref="iva_rep_21b"/>
         </record>
-        <record id="fptt_irpf15sale_21_2"
+        <record id="fptt_irpf15sale_21b_2"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf15"/>
-            <field name="tax_src_id" ref="iva_rep_21"/>
+            <field name="tax_src_id" ref="iva_rep_21b"/>
             <field name="tax_dest_id" ref="irpf_sale_15"/>
         </record>
-        <record id="fptt_irpf15sale_10"
+        <record id="fptt_irpf15sale_21s"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf15"/>
-            <field name="tax_src_id" ref="iva_rep_10"/>
-            <field name="tax_dest_id" ref="iva_rep_10"/>
+            <field name="tax_src_id" ref="iva_rep_21s"/>
+            <field name="tax_dest_id" ref="iva_rep_21s"/>
         </record>
-        <record id="fptt_irpf15sale_10_2"
+        <record id="fptt_irpf15sale_21s_2"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf15"/>
-            <field name="tax_src_id" ref="iva_rep_10"/>
+            <field name="tax_src_id" ref="iva_rep_21s"/>
             <field name="tax_dest_id" ref="irpf_sale_15"/>
         </record>
-        <record id="fptt_irpf15sale_4"
+        <record id="fptt_irpf15sale_10b"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf15"/>
-            <field name="tax_src_id" ref="iva_rep_4"/>
-            <field name="tax_dest_id" ref="iva_rep_4"/>
+            <field name="tax_src_id" ref="iva_rep_10b"/>
+            <field name="tax_dest_id" ref="iva_rep_10b"/>
         </record>
-        <record id="fptt_irpf15sale_4_2"
+        <record id="fptt_irpf15sale_10b_2"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf15"/>
-            <field name="tax_src_id" ref="iva_rep_4"/>
+            <field name="tax_src_id" ref="iva_rep_10b"/>
+            <field name="tax_dest_id" ref="irpf_sale_15"/>
+        </record>
+        <record id="fptt_irpf15sale_10s"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf15"/>
+            <field name="tax_src_id" ref="iva_rep_10s"/>
+            <field name="tax_dest_id" ref="iva_rep_10s"/>
+        </record>
+        <record id="fptt_irpf15sale_10s_2"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf15"/>
+            <field name="tax_src_id" ref="iva_rep_10s"/>
+            <field name="tax_dest_id" ref="irpf_sale_15"/>
+        </record>
+        <record id="fptt_irpf15sale_4b"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf15"/>
+            <field name="tax_src_id" ref="iva_rep_4b"/>
+            <field name="tax_dest_id" ref="iva_rep_4b"/>
+        </record>
+        <record id="fptt_irpf15sale_4b_2"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf15"/>
+            <field name="tax_src_id" ref="iva_rep_4b"/>
+            <field name="tax_dest_id" ref="irpf_sale_15"/>
+        </record>
+        <record id="fptt_irpf15sale_4s"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf15"/>
+            <field name="tax_src_id" ref="iva_rep_4s"/>
+            <field name="tax_dest_id" ref="iva_rep_4s"/>
+        </record>
+        <record id="fptt_irpf15sale_4s_2"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf15"/>
+            <field name="tax_src_id" ref="iva_rep_4s"/>
             <field name="tax_dest_id" ref="irpf_sale_15"/>
         </record>
         <record id="fptt_irpf15_21" model="account.fiscal.position.tax.template">
@@ -562,40 +721,76 @@
 
         <!-- Retenciones IRPF 9% -->
 
-        <record id="fptt_irpf9sale_21"
+        <record id="fptt_irpf9sale_21b"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf9"/>
-            <field name="tax_src_id" ref="iva_rep_21"/>
-            <field name="tax_dest_id" ref="iva_rep_21"/>
+            <field name="tax_src_id" ref="iva_rep_21b"/>
+            <field name="tax_dest_id" ref="iva_rep_21b"/>
         </record>
-        <record id="fptt_irpf9sale_21_2"
+        <record id="fptt_irpf9sale_21b_2"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf9"/>
-            <field name="tax_src_id" ref="iva_rep_21"/>
+            <field name="tax_src_id" ref="iva_rep_21b"/>
             <field name="tax_dest_id" ref="irpf_sale_9"/>
         </record>
-        <record id="fptt_irpf9sale_10"
+        <record id="fptt_irpf9sale_21s"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf9"/>
-            <field name="tax_src_id" ref="iva_rep_10"/>
-            <field name="tax_dest_id" ref="iva_rep_10"/>
+            <field name="tax_src_id" ref="iva_rep_21s"/>
+            <field name="tax_dest_id" ref="iva_rep_21s"/>
         </record>
-        <record id="fptt_irpf9sale_10_2"
+        <record id="fptt_irpf9sale_21s_2"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf9"/>
-            <field name="tax_src_id" ref="iva_rep_10"/>
+            <field name="tax_src_id" ref="iva_rep_21s"/>
             <field name="tax_dest_id" ref="irpf_sale_9"/>
         </record>
-        <record id="fptt_irpf9sale_4"
+        <record id="fptt_irpf9sale_10b"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf9"/>
-            <field name="tax_src_id" ref="iva_rep_4"/>
-            <field name="tax_dest_id" ref="iva_rep_4"/>
+            <field name="tax_src_id" ref="iva_rep_10b"/>
+            <field name="tax_dest_id" ref="iva_rep_10b"/>
         </record>
-        <record id="fptt_irpf9sale_4_2"
+        <record id="fptt_irpf9sale_10b_2"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf9"/>
-            <field name="tax_src_id" ref="iva_rep_4"/>
+            <field name="tax_src_id" ref="iva_rep_10b"/>
+            <field name="tax_dest_id" ref="irpf_sale_9"/>
+        </record>
+        <record id="fptt_irpf9sale_10s"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf9"/>
+            <field name="tax_src_id" ref="iva_rep_10s"/>
+            <field name="tax_dest_id" ref="iva_rep_10s"/>
+        </record>
+        <record id="fptt_irpf9sale_10s_2"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf9"/>
+            <field name="tax_src_id" ref="iva_rep_10s"/>
+            <field name="tax_dest_id" ref="irpf_sale_9"/>
+        </record>
+        <record id="fptt_irpf9sale_4b"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf9"/>
+            <field name="tax_src_id" ref="iva_rep_4b"/>
+            <field name="tax_dest_id" ref="iva_rep_4b"/>
+        </record>
+        <record id="fptt_irpf9sale_4b_2"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf9"/>
+            <field name="tax_src_id" ref="iva_rep_4b"/>
+            <field name="tax_dest_id" ref="irpf_sale_9"/>
+        </record>
+        <record id="fptt_irpf9sale_4s"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf9"/>
+            <field name="tax_src_id" ref="iva_rep_4s"/>
+            <field name="tax_dest_id" ref="iva_rep_4s"/>
+        </record>
+        <record id="fptt_irpf9sale_4s_2"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf9"/>
+            <field name="tax_src_id" ref="iva_rep_4s"/>
             <field name="tax_dest_id" ref="irpf_sale_9"/>
         </record>
         <record id="fptt_irpf9_21" model="account.fiscal.position.tax.template">
@@ -653,40 +848,76 @@
 
         <!-- Retenciones IRPF 7% -->
 
-        <record id="fptt_irpf7sale_21"
+        <record id="fptt_irpf7sale_21b"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf7"/>
-            <field name="tax_src_id" ref="iva_rep_21"/>
-            <field name="tax_dest_id" ref="iva_rep_21"/>
+            <field name="tax_src_id" ref="iva_rep_21b"/>
+            <field name="tax_dest_id" ref="iva_rep_21b"/>
         </record>
-        <record id="fptt_irpf7sale_21_2"
+        <record id="fptt_irpf7sale_21b_2"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf7"/>
-            <field name="tax_src_id" ref="iva_rep_21"/>
+            <field name="tax_src_id" ref="iva_rep_21b"/>
             <field name="tax_dest_id" ref="irpf_sale_7"/>
         </record>
-        <record id="fptt_irpf7sale_10"
+        <record id="fptt_irpf7sale_21s"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf7"/>
-            <field name="tax_src_id" ref="iva_rep_10"/>
-            <field name="tax_dest_id" ref="iva_rep_10"/>
+            <field name="tax_src_id" ref="iva_rep_21s"/>
+            <field name="tax_dest_id" ref="iva_rep_21s"/>
         </record>
-        <record id="fptt_irpf7sale_10_2"
+        <record id="fptt_irpf7sale_21s_2"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf7"/>
-            <field name="tax_src_id" ref="iva_rep_10"/>
+            <field name="tax_src_id" ref="iva_rep_21s"/>
             <field name="tax_dest_id" ref="irpf_sale_7"/>
         </record>
-        <record id="fptt_irpf7sale_4"
+        <record id="fptt_irpf7sale_10b"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf7"/>
-            <field name="tax_src_id" ref="iva_rep_4"/>
-            <field name="tax_dest_id" ref="iva_rep_4"/>
+            <field name="tax_src_id" ref="iva_rep_10b"/>
+            <field name="tax_dest_id" ref="iva_rep_10b"/>
         </record>
-        <record id="fptt_irpf7sale_4_2"
+        <record id="fptt_irpf7sale_10b_2"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf7"/>
-            <field name="tax_src_id" ref="iva_rep_4"/>
+            <field name="tax_src_id" ref="iva_rep_10b"/>
+            <field name="tax_dest_id" ref="irpf_sale_7"/>
+        </record>
+        <record id="fptt_irpf7sale_10s"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf7"/>
+            <field name="tax_src_id" ref="iva_rep_10s"/>
+            <field name="tax_dest_id" ref="iva_rep_10s"/>
+        </record>
+        <record id="fptt_irpf7sale_10s_2"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf7"/>
+            <field name="tax_src_id" ref="iva_rep_10s"/>
+            <field name="tax_dest_id" ref="irpf_sale_7"/>
+        </record>
+        <record id="fptt_irpf7sale_4b"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf7"/>
+            <field name="tax_src_id" ref="iva_rep_4b"/>
+            <field name="tax_dest_id" ref="iva_rep_4b"/>
+        </record>
+        <record id="fptt_irpf7sale_4b_2"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf7"/>
+            <field name="tax_src_id" ref="iva_rep_4b"/>
+            <field name="tax_dest_id" ref="irpf_sale_7"/>
+        </record>
+        <record id="fptt_irpf7sale_4s"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf7"/>
+            <field name="tax_src_id" ref="iva_rep_4s"/>
+            <field name="tax_dest_id" ref="iva_rep_4s"/>
+        </record>
+        <record id="fptt_irpf7sale_4s_2"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf7"/>
+            <field name="tax_src_id" ref="iva_rep_4s"/>
             <field name="tax_dest_id" ref="irpf_sale_7"/>
         </record>
         <record id="fptt_irpf7_21" model="account.fiscal.position.tax.template">
@@ -722,40 +953,76 @@
 
         <!-- Retenciones IRPF 2% -->
 
-        <record id="fptt_irpf2sale_21"
+        <record id="fptt_irpf2sale_21b"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf2"/>
-            <field name="tax_src_id" ref="iva_rep_21"/>
-            <field name="tax_dest_id" ref="iva_rep_21"/>
+            <field name="tax_src_id" ref="iva_rep_21b"/>
+            <field name="tax_dest_id" ref="iva_rep_21b"/>
         </record>
-        <record id="fptt_irpf2sale_21_2"
+        <record id="fptt_irpf2sale_21b_2"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf2"/>
-            <field name="tax_src_id" ref="iva_rep_21"/>
+            <field name="tax_src_id" ref="iva_rep_21b"/>
             <field name="tax_dest_id" ref="irpf_sale_2"/>
         </record>
-        <record id="fptt_irpf2sale_10"
+        <record id="fptt_irpf2sale_21s"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf2"/>
-            <field name="tax_src_id" ref="iva_rep_10"/>
-            <field name="tax_dest_id" ref="iva_rep_10"/>
+            <field name="tax_src_id" ref="iva_rep_21s"/>
+            <field name="tax_dest_id" ref="iva_rep_21s"/>
         </record>
-        <record id="fptt_irpf2sale_10_2"
+        <record id="fptt_irpf2sale_21s_2"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf2"/>
-            <field name="tax_src_id" ref="iva_rep_10"/>
+            <field name="tax_src_id" ref="iva_rep_21s"/>
             <field name="tax_dest_id" ref="irpf_sale_2"/>
         </record>
-        <record id="fptt_irpf2sale_4"
+        <record id="fptt_irpf2sale_10b"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf2"/>
-            <field name="tax_src_id" ref="iva_rep_4"/>
-            <field name="tax_dest_id" ref="iva_rep_4"/>
+            <field name="tax_src_id" ref="iva_rep_10b"/>
+            <field name="tax_dest_id" ref="iva_rep_10b"/>
         </record>
-        <record id="fptt_irpf2sale_4_2"
+        <record id="fptt_irpf2sale_10b_2"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf2"/>
-            <field name="tax_src_id" ref="iva_rep_4"/>
+            <field name="tax_src_id" ref="iva_rep_10b"/>
+            <field name="tax_dest_id" ref="irpf_sale_2"/>
+        </record>
+        <record id="fptt_irpf2sale_10s"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf2"/>
+            <field name="tax_src_id" ref="iva_rep_10s"/>
+            <field name="tax_dest_id" ref="iva_rep_10s"/>
+        </record>
+        <record id="fptt_irpf2sale_10s_2"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf2"/>
+            <field name="tax_src_id" ref="iva_rep_10s"/>
+            <field name="tax_dest_id" ref="irpf_sale_2"/>
+        </record>
+        <record id="fptt_irpf2sale_4b"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf2"/>
+            <field name="tax_src_id" ref="iva_rep_4b"/>
+            <field name="tax_dest_id" ref="iva_rep_4b"/>
+        </record>
+        <record id="fptt_irpf2sale_4b_2"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf2"/>
+            <field name="tax_src_id" ref="iva_rep_4b"/>
+            <field name="tax_dest_id" ref="irpf_sale_2"/>
+        </record>
+        <record id="fptt_irpf2sale_4s"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf2"/>
+            <field name="tax_src_id" ref="iva_rep_4s"/>
+            <field name="tax_dest_id" ref="iva_rep_4s"/>
+        </record>
+        <record id="fptt_irpf2sale_4s_2"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf2"/>
+            <field name="tax_src_id" ref="iva_rep_4s"/>
             <field name="tax_dest_id" ref="irpf_sale_2"/>
         </record>
         <record id="fptt_irpf2_21" model="account.fiscal.position.tax.template">
@@ -813,40 +1080,76 @@
 
         <!-- Retenciones IRPF 1% -->
 
-        <record id="fptt_irpf1sale_21"
+        <record id="fptt_irpf1sale_21b"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf1"/>
-            <field name="tax_src_id" ref="iva_rep_21"/>
-            <field name="tax_dest_id" ref="iva_rep_21"/>
+            <field name="tax_src_id" ref="iva_rep_21b"/>
+            <field name="tax_dest_id" ref="iva_rep_21b"/>
         </record>
-        <record id="fptt_irpf1sale_21_2"
+        <record id="fptt_irpf1sale_21b_2"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf1"/>
-            <field name="tax_src_id" ref="iva_rep_21"/>
+            <field name="tax_src_id" ref="iva_rep_21b"/>
             <field name="tax_dest_id" ref="irpf_sale_1"/>
         </record>
-        <record id="fptt_irpf1sale_10"
+        <record id="fptt_irpf1sale_21s"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf1"/>
-            <field name="tax_src_id" ref="iva_rep_10"/>
-            <field name="tax_dest_id" ref="iva_rep_10"/>
+            <field name="tax_src_id" ref="iva_rep_21s"/>
+            <field name="tax_dest_id" ref="iva_rep_21s"/>
         </record>
-        <record id="fptt_irpf1sale_10_2"
+        <record id="fptt_irpf1sale_21s_2"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf1"/>
-            <field name="tax_src_id" ref="iva_rep_10"/>
+            <field name="tax_src_id" ref="iva_rep_21s"/>
             <field name="tax_dest_id" ref="irpf_sale_1"/>
         </record>
-        <record id="fptt_irpf1sale_4"
+        <record id="fptt_irpf1sale_10b"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf1"/>
-            <field name="tax_src_id" ref="iva_rep_4"/>
-            <field name="tax_dest_id" ref="iva_rep_4"/>
+            <field name="tax_src_id" ref="iva_rep_10b"/>
+            <field name="tax_dest_id" ref="iva_rep_10b"/>
         </record>
-        <record id="fptt_irpf1sale_4_2"
+        <record id="fptt_irpf1sale_10b_2"
             model="account.fiscal.position.tax.template">
             <field name="position_id" ref="fp_irpf1"/>
-            <field name="tax_src_id" ref="iva_rep_4"/>
+            <field name="tax_src_id" ref="iva_rep_10b"/>
+            <field name="tax_dest_id" ref="irpf_sale_1"/>
+        </record>
+        <record id="fptt_irpf1sale_10s"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf1"/>
+            <field name="tax_src_id" ref="iva_rep_10s"/>
+            <field name="tax_dest_id" ref="iva_rep_10s"/>
+        </record>
+        <record id="fptt_irpf1sale_10s_2"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf1"/>
+            <field name="tax_src_id" ref="iva_rep_10s"/>
+            <field name="tax_dest_id" ref="irpf_sale_1"/>
+        </record>
+        <record id="fptt_irpf1sale_4b"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf1"/>
+            <field name="tax_src_id" ref="iva_rep_4b"/>
+            <field name="tax_dest_id" ref="iva_rep_4b"/>
+        </record>
+        <record id="fptt_irpf1sale_4b_2"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf1"/>
+            <field name="tax_src_id" ref="iva_rep_4b"/>
+            <field name="tax_dest_id" ref="irpf_sale_1"/>
+        </record>
+        <record id="fptt_irpf1sale_4s"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf1"/>
+            <field name="tax_src_id" ref="iva_rep_4s"/>
+            <field name="tax_dest_id" ref="iva_rep_4s"/>
+        </record>
+        <record id="fptt_irpf1sale_4s_2"
+            model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fp_irpf1"/>
+            <field name="tax_src_id" ref="iva_rep_4s"/>
             <field name="tax_dest_id" ref="irpf_sale_1"/>
         </record>
         <record id="fptt_irpf1_21" model="account.fiscal.position.tax.template">
