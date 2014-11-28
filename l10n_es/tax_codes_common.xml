@@ -779,9 +779,21 @@
             <field name="parent_id" ref="irpf_cuota_total"/>
             <field name="sign">1.0</field>
         </record>
-        <record id="irpf_cuota_21" model="account.tax.code.template">
-            <field name="name">IRPF retenciones practicadas. Cuota 21%</field>
-            <field name="code">IRPF21</field>
+        <record id="irpf_cuota_21_p" model="account.tax.code.template">
+            <field name="name">IRPF retenciones practicadas a profesionales. Cuota 21%</field>
+            <field name="code">IRPF21P</field>
+            <field name="parent_id" ref="irpf_cuota_total"/>
+            <field name="sign">1.0</field>
+        </record>
+        <record id="irpf_cuota_21_t" model="account.tax.code.template">
+            <field name="name">IRPF retenciones practicadas a trabajadores. Cuota 21%</field>
+            <field name="code">IRPF21T</field>
+            <field name="parent_id" ref="irpf_cuota_total"/>
+            <field name="sign">1.0</field>
+        </record>
+        <record id="irpf_cuota_21_a" model="account.tax.code.template">
+            <field name="name">IRPF retenciones practicadas a arrendamientos. Cuota 21%</field>
+            <field name="code">IRPF21A</field>
             <field name="parent_id" ref="irpf_cuota_total"/>
             <field name="sign">1.0</field>
         </record>
