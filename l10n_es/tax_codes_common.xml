@@ -16,6 +16,9 @@
         Añadidos códigos para el IVA agrario
         Cambio en los nombres para reflejar que los antiguos códigos de
         adquisiciones intracomunitarias de bienes incluyen también servicios
+        
+        Angel Moya (Domatix) - angel.moya@domatix.com (2014-11-28)
+        Añadidos códigos para diferenciar IRPF Profesionales, Trabajadores y Arriendos
 
         -->
 
@@ -714,9 +717,21 @@
             <field name="parent_id" ref="irpf_base"/>
             <field name="sign">1.0</field>
         </record>
-        <record id="irpf_base_21" model="account.tax.code.template">
-            <field name="name">IRPF retenciones practicadas. Base imponible 21%</field>
-            <field name="code">B.IRPF21</field>
+        <record id="irpf_base_21_p" model="account.tax.code.template">
+            <field name="name">IRPF retenciones practicadas a profesionales. Base imponible 21%</field>
+            <field name="code">B.IRPF21P</field>
+            <field name="parent_id" ref="irpf_base"/>
+            <field name="sign">1.0</field>
+        </record>
+        <record id="irpf_base_21_t" model="account.tax.code.template">
+            <field name="name">IRPF retenciones practicadas a trabajadores. Base imponible 21%</field>
+            <field name="code">B.IRPF21T</field>
+            <field name="parent_id" ref="irpf_base"/>
+            <field name="sign">1.0</field>
+        </record>
+        <record id="irpf_base_21_a" model="account.tax.code.template">
+            <field name="name">IRPF retenciones practicadas a arrendamiento. Base imponible 21%</field>
+            <field name="code">B.IRPF21A</field>
             <field name="parent_id" ref="irpf_base"/>
             <field name="sign">1.0</field>
         </record>
